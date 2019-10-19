@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Business Theme
 
-You can use the [editor on GitHub](https://github.com/WillisEnterprise/Website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Designed By:** James Apoefis <br>
+**Developed By:** James Apoefis <br>
+**Tested up to:** WordPress 4.8 <br>
+**Version:** 1.0 <br>
+**Tags:** responsive, full-width, blog, left-sidebar, search-bar, comments
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Description
 
-### Markdown
+Business Theme is a theme designed for oranisations that need a website that is ready to go in minutes. This theme features multiple sections on the front page, navigation, a logo and more. The theme is also responsive, so it will look flawless on any device accessed on. This business theme has also been developed with accessibility at the fore-front to accommodate a wider audience.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Screenshot
 
-```markdown
-Syntax highlighted code block
+![Front Page](/assets/images/screenshot_small.png?raw=true "Front Page")
 
-# Header 1
-## Header 2
-### Header 3
+## Installation
 
-- Bulleted
-- List
+1. Download the repository and unzip the file.
+2. Copy the Business Theme folder to your wordpress themes folder.
+3. Inside the WordPress dashboard, go to Appearance -> Themes and activate the Business Theme.
+4. Customise the theme to suit your needs.
 
-1. Numbered
-2. List
+## Changelog
 
-**Bold** and _Italic_ and `Code` text
+### 1.0
+* Released: July 3, 2017
 
-[Link](url) and ![Image](src)
-```
+## Disclaimer
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WillisEnterprise/Website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Icons were downloaded from FlatIcon](https://www.flaticon.com/) <br>
+[Images were downloaded from Pexels](https://www.pexels.com/)
