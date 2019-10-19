@@ -1,0 +1,668 @@
+/* Default Styles
+---------------------------------------------------------------------------------------------------- */
+
+.fluid {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2.5em;
+	color: #123c81;
+}
+
+h2 {
+	font-size: 1.8em;
+	color: #000;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: #202020;
+	font-style: italic;
+}
+
+p {
+	font-family: "Verdana", sans-serif;
+	font-size: 1em;
+	line-height: 160%;
+}
+
+a:link, a:visited, a:hover {
+	color: #123cd1;
+}
+
+li {
+	font-family: "Verdana", sans-serif;
+	font-size: 1em;
+	line-height: 160%;
+	padding-bottom: 5px;
+}
+
+.headerNav ul li.current_page_item {
+	background: rgba(0, 56, 140, 0.8);
+}
+
+
+
+/* Header Styles
+---------------------------------------------------------------------------------------------------- */
+
+.headerNav a {
+	text-decoration: none;
+	font-size: 1.1em;
+}
+
+.headerWrapper {
+	background: #000;
+	padding: 10px 0 5px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+}
+
+.headerNav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 13px;
+	right: 0px;
+	left: 250px;
+}
+
+.headerNav ul li {
+	display: inline;
+	padding: 27px 15px 24px 15px;
+	font-size: 0.95em;
+}
+
+.headerNav ul li a,
+.headerNav ul li a:visited {
+	color: #FFF;
+	padding: 15px 0 15px 0;
+}
+
+.headerNav ul li:hover {
+	background: rgba(0, 56, 140, 0.8);
+}
+
+.headerNav ul ul {
+	display: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 100%;
+	width: 200px;
+	left: 0px;
+}
+
+.headerNav ul ul li {
+	display: block;
+}
+
+.headerNav ul ul ul {
+	display: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 200px;
+}
+
+.headerNav ul ul ul li {
+	display: block;
+}
+
+.hero {
+	width: 100%;
+	height: 550px;
+	z-index: -1;
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+
+.searchIcon {
+	float: right;
+	position: relative;
+	top: -10px;
+	border-left: 1px solid #FFF;
+	padding-left: 30px;
+}
+
+.searchWrapper {
+	display: none;
+}
+
+.searchWrapper.showForm {
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 65px;
+	width: 300px;
+}
+
+.searchMenu {
+	display: none;
+}
+
+.burgerButton {
+	display: none;
+}
+
+
+
+/* Body Styles
+---------------------------------------------------------------------------------------------------- */
+
+.pageTitle {
+	margin-bottom: 10px;
+}
+
+.content p {
+	margin: 10px 0 0 0;
+}
+
+.blogList {
+	margin: 15px 0 0 0;
+}
+
+.capitalise {
+    text-transform: uppercase;
+}
+
+
+.authorExtra {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.authorExtra span {
+	font-size: 1.1em;
+}
+
+.homeH1 {
+	margin: 0;
+	padding: 0;
+	margin-top: 5px;
+}
+
+.welcome {
+	padding: 0;
+	margin: 0;
+	margin-top: 5px;
+	font-style: italic;
+}
+
+.map-wrap {
+	position: relative;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.overlay {
+	width: 100%;
+  	height: 450px;
+  	position: absolute;
+  	top: 0px;
+}
+
+.searchContent {
+	margin-bottom: 15px;
+}
+
+
+
+/* Tile Styles
+---------------------------------------------------------------------------------------------------- */
+
+.tileWrapper {
+	margin: 80px 0 80px 0;
+	padding: 50px 0 50px 0;
+	background: #DDD;
+}
+
+.view {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+.view .mask, .view .content {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+    background-color: rgba(255, 231, 179, 0.3); 
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+.view img {
+	width: 100%;
+    display: block;
+    position: relative;
+    transform: scaleY(1);
+	transition: all 0.7s ease-in-out;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+    transform: scale(0);
+    color: #333;
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+.view p {
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+    color: #333;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000;
+}
+
+.view:hover img { 
+	transform: scale(10);
+    opacity: 0;
+}
+.view:hover .mask { 
+	opacity: 1;
+}																			 
+.view:hover h2,
+.view:hover p,
+.view:hover a.info{ 
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+/* Services Styles
+---------------------------------------------------------------------------------------------------- */
+
+.services {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.service img {
+	display: block;
+	margin: 0 auto;
+}
+
+.service p {
+	text-align: center;
+	margin: 15px 0 80px 0;
+}
+
+
+
+/* Comment Styles
+---------------------------------------------------------------------------------------------------- */
+
+.commentlist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.comment-awaiting-moderation {
+	display: none;
+}
+
+.commentlist br {
+	display: none;
+}
+
+.comment-author {
+	background: #123c81;
+	padding: 0 0 10px 15px;
+}
+
+.author.vcard a {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.comment-meta {
+	background: #123c81;
+	padding-top: 0;
+    padding-left: 67px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+
+.comment-meta a {
+	color: #FFF;
+}
+
+.fn {
+	margin-left: 15px;
+	color: #FFF;
+}
+
+.says {
+	color: #FFF;
+}
+
+.avatar {
+	margin: 15px 0 0 0;
+}
+
+.thread-even, .thread-odd {
+	margin-bottom: 30px;
+}
+
+.comment-body {
+	background: #CCC;
+}
+
+.comment-body p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15px;
+}
+
+.reply {
+	margin: 10px 0 0 15px;
+	padding-bottom: 15px;
+}
+
+#comment {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#comments {
+	margin-bottom: 15px;
+}
+
+#author {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#url {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#reply-title {
+    display: none;
+}
+
+#submit {
+	margin-bottom: 30px;
+}
+
+
+
+/* Sidebar Styles
+---------------------------------------------------------------------------------------------------- */
+
+.sidebarTitle {
+	color: #FFF;
+	background: #123c81;
+	padding: 5px 0 5px 20px;
+	font-size: 1.5em;
+}
+
+.textwidget {
+	background: #DEDDDD;
+	padding: 10px 20px 0 20px;
+	font-size: 1em;
+}
+
+.textwidget ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+.textwidget ul li {
+	padding: 2px 0 2px 0;
+}
+
+.sidebarWrapper {
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+
+
+/* Footer Styles
+---------------------------------------------------------------------------------------------------- */
+
+.footerNav a {
+	color: #FFF;
+}
+
+.footerWrapper {
+	background: #0b0b0b;
+	padding-top: 30px;
+}
+
+.footerNav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+	margin-left: 70px;
+}
+
+.footerNav ul li {
+	color: #FFF;
+	padding: 15px 0 15px 0;
+}
+
+.socialMedia ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 15px;
+	margin-left: 70px;
+}
+
+.socialMedia ul li {
+	display: inline;
+	padding-left: 5px;
+}
+
+.copyright {
+	border-top: 2px solid rgba(0, 56, 140, 0.5);
+}
+
+.copyright a {
+	color: #FFF;
+}
+
+.copyright p {
+	margin: 20px 0 10px 0;
+	color: #FFF;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+
+
+/* Responsive Styles
+---------------------------------------------------------------------------------------------------- */
+
+/* Large Desktops - lg */
+@media (min-width: 1200px) { 
+
+	/* Place any styles specific to large destop screens here */
+  
+}
+
+/* Landscape Tablets / Small Desktops - md */
+@media (max-width: 1199px) { 
+
+	/* Place any styles that are specific to tablets and small desktops here */
+
+	.headerNav ul {
+		left: 110px;
+	}
+}
+
+/* Portrait Tablets - sm */
+@media (max-width: 991px) { 
+
+	/* Place any styles that are specific to portrait tablets here */
+	
+	.headerWrapper {
+		padding-bottom: 10px;
+	}
+
+	.headerNav ul {
+		position: static;
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.headerNav ul li {
+		display: block;
+	}
+
+	.searchIcon {
+		display: none;
+	}
+
+	.headerNav {
+		display: none;
+	}
+
+	.headerNav.showMenu {
+		display: block;
+	}
+
+	.logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.burgerButton {
+		display: block;
+	    width: 32px;
+	    height: 25px;
+	    position: absolute;
+	    left: 15px;
+	    margin-top: 10px;
+   }
+
+   .searchMenu {
+   		display: block;
+	   	position: absolute;
+	   	right: 15px;
+	   	top: 8px;
+	   	margin: 0;
+	   	padding: 0;
+   }
+
+   .searchWrapper.showForm {
+		display: block;
+		position: absolute;
+		right: 0px;
+		top: 65px;
+		width: 100%;
+	}
+
+	.headerNav ul {
+		margin-top: 30px;
+	}
+
+	.headerNav ul li {
+		padding: 15px 0 15px 0;
+		text-align: center;
+	}
+
+	.footerNav ul {
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		border-bottom: 2px solid rgba(0, 56, 140, 0.5);
+	}
+
+	.footerNav ul li {
+		padding: 18px 0 18px 0;
+		font-size: 1.05em
+	}
+
+	.socialMedia ul {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		margin-top: 18px;
+		margin-bottom: 18px;
+	}
+
+	.socialMedia ul li {
+		padding: 0 5px 0 5px;
+	}
+
+	.copyright {
+		border-top: 2px solid rgba(0, 56, 140, 0.5);
+		margin: 0 15px 0 15px;
+	}
+}
+
+/* Landscape Mobile Phones - xs */
+@media (max-width: 767px) {
+
+	/* Place styles that are specific to landscape phones here */
+
+}
+
+/* Portrait Mobile Phones - xs */
+@media (max-width: 480px) { 
+
+	/* Place any styles that are specific to mobile phones here */
+
+}
